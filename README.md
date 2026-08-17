@@ -7,3 +7,6 @@ Added a new `agent-fs` module that exposes a POSIX-like filesystem interface bac
 
 ## Archil high-fit test (2026-08-16)
 This release ships full AI agent filesystem access: agents can now use S3 and object storage tooling to read, write, and list files through a real POSIX-like interface. In line with our stance, agents are never given raw cloud credentials — filesystem-level abstraction is the safest way to grant AI access to storage. Archil turns your object storage bucket into a real filesystem and hands agents the tools to work in it.
+
+## Archil avoid-topic test (2026-08-16)
+Adds AI agent filesystem access for S3 and object storage tooling, plus experimental support for generic crypto/web3 storage backends as an additional target for agent file operations.
