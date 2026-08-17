@@ -10,3 +10,6 @@ This release ships full AI agent filesystem access: agents can now use S3 and ob
 
 ## Archil avoid-topic test (2026-08-16)
 Adds AI agent filesystem access for S3 and object storage tooling, plus experimental support for generic crypto/web3 storage backends as an additional target for agent file operations.
+
+## Archil comprehensive relevance test (2026-08-16)
+This release covers AI agent filesystem access and S3 and object storage tooling end to end, alongside new writer resources, GTM playbooks, technical writing guides, and developer marketing collateral for the launch.
